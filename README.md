@@ -11,6 +11,8 @@ Passo 3: Localizaco en_i18n
 Passo 3: Particionamento:
 
 	Guided for entire disk with LVM
+	/home, /usr, /var seperados
+
 
 # Modificações após instalação
 
