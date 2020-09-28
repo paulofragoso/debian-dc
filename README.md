@@ -1,4 +1,4 @@
-# Debian:
+# Debian Instalação:
 
 Instalacao em modo texto:
 
@@ -15,3 +15,6 @@ Passo 3: Particionamento:
 # Modificações após instalação
 
 Nome das interfaces:
+
+	sed -i'.orig' 's|^\(GRUB_CMDLINE_LINUX.*\)"|\1 net.ifnames=0 biosdevname=0"|' /etc/default/grub
+	grub-mkconfig -o /boot/grub/grub.cfg
