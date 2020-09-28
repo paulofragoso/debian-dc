@@ -12,4 +12,6 @@ Passo 3: Particionamento:
 
 	Guided for entire disk with LVM
 
-Modificações após instalação:
+# Modificações após instalação
+
+Nome das interfaces:
