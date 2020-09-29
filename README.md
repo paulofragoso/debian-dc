@@ -2,17 +2,27 @@
 
 Instalacao em modo texto:
 
-Passo 1: Liguagem English
+Passo 1: Liguagem: English - English
 
-Passo 2: Região other -> South America -> Brasil
+Passo 2: Continente ou Região: South America -> Brasil
 
-Passo 3: Localizaco en_i18n
+Passo 3: Configurações de localização local: Uninted States - en_US.UTF-8
 
-Passo 3: Particionamento:
+Passo 4: Mapa de teclado: American English
 
-	Guided for entire disk with LVM
-	/home, /usr, /var seperados
+Passo 5: Configuracoes de rede e usuário
 
+	Pode ser criado um usuário: Paulo Fragoso - paulo
+
+Passo 6: Timezone: Pernambuco
+
+Passo 7: Particionamento:
+
+	Guided - use entire disk and set up LVM
+	com 
+	Separete /home, /var, and /tmp partitions
+
+Obs.: Escreve o particionamento e o LVM (yes + yes)
 
 # Modificações após instalação
 
