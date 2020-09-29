@@ -24,6 +24,19 @@ Passo 7: Particionamento:
 
 Obs.: Escreve o particionamento e o LVM (yes + yes)
 
+Passo 8: Outro CD/DVD: no
+
+Passo 9: Arquivos do Debian: Brazil
+
+Obs.: Confirma o resto, não participar da pesquisa e salvar o grub no disco.
+
+Passo 10: Instalação dos softwares:
+
+	[ * ] SSH server
+	[ * ] stantard system utilities
+
+Obs.: Desmarcar outras opções. 
+
 # Modificações após instalação
 
 Nome das interfaces:
