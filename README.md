@@ -42,6 +42,7 @@ Obs.: Desmarcar outras opções.
 Nome das interfaces:
 
 	sed -i'.orig' 's|^\(GRUB_CMDLINE_LINUX.*\)"|\1 net.ifnames=0 biosdevname=0"|' /etc/default/grub
+	export PATH=$PATH:/sbin
 	grub-mkconfig -o /boot/grub/grub.cfg
 
 Um exemplo de configuração de rede:
